@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('/pic/12.jpg');
+    background-size: cover;
+    
+    background-position: center center;
+}
+/* .text{
+    margin-top: 400px;
+    bottom: 500px;
+    text-align: center;
+    color:white;
+    line-height: 200%;
+} */
+
+.two{
+margin-top: 300px;
+background-image: url('/pic/fon2.jpg');
+background-size: cover;
+background-repeat: repeat-y;
+background-position: center center;
+color: white;
+text-align: center;
+
+border-radius: 20px;}
+
+
+.two>article>h2{
+    margin-top: 100px;
+    text-align: center;
+   
+    
+}
+
+.three{
+    background-color: white;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center center;
+    padding: 10% 10%;
+    text-align: left;
+    margin-top: 50px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+
+}
+.menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.menu a{
+    display: inline-block;
+    padding: 20px 110px;
+    margin: 10px 10px 10px;
+    width: 140px;
+    height: 21px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu li{
+    display: inline;
+}
+.floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 50px;
+    height: 45px;
+    border-radius: 25px;
+    margin: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    text-align: center;
+    color: #524f4e;
+    background: rgb(40, 38, 46);
+    box-shadow: 0 2px 2px rgba(112, 102, 102, 0.1);
+    transition: .3s;
+  }
+  .floating-button:hover {
+    background: #ffffff;
+    box-shadow: 0 15px 20px rgba(8, 8, 7, 0.4);
+    color: rgb(90, 86, 86);
+    transform: translateY(-7px);
+  }
+.logo{
+    text-align: center;
+}
